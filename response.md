@@ -1,0 +1,19 @@
+- [ ] 2024-12-27 10:50:14 | No hacer push hoy.
+- [ ] 2024-12-27 13:11:48 | Checar las credenciales.
+- [ ] 2024-12-28 11:39:26 | Subir los cambios hoy.
+- [ ] 2024-12-30 11:04:25 | Arreglar error de inventario que no retroalimenta cuando hay error y marca error de areaId already exist.
+- [ ] 2024-12-30 11:12:16 | Arreglar que cuando prospecto se transforme a cliente, se elimine de prospecto y asegurarse que las cotizaciones queden en el nuevo registro, dejando información de cómo había sido guardado el nombre.
+- [ ] 2024-12-30 11:14:29 | Arreglar que al seleccionar el área en solicitudes de compra, el solicitante debe ser un dropdown con los empleados de esa área.
+- [ ] 2024-12-30 11:27:23 | Arreglar el formato de cotización que está mal contra el que nos dieron.
+- [ ] 2024-12-30 13:05:20 | Dejar bien el formato de cotización, eliminando campos que no deben ir y asegurando que se vea el nombre del producto.
+- [ ] 2024-12-30 14:51:47 | Eliminar la columna del folio de cotización.
+- [ ] 2024-12-30 14:57:45 | Asegurar que la descripción no quede de lectura.
+- [ ] 2024-12-30 15:29:57 | Crear un mini panel donde venga el folio, secuencia y vigencia para que eso se impregne en las cotizaciones.
+- [ ] 2024-12-30 20:33:41 | Cambiar el texto de la validez a "30 días", "31 días", etc.
+- [ ] 2024-12-30 20:34:17 | Sumar los días de validez a la fecha actual.
+- [ ] 2024-12-30 20:37:31 | Hacer los permisos.
+- [ ] 2024-12-30 20:47:53 | Terminar el modal de cotización antes de empezar con los permisos.
+- [ ] 2024-12-31 19:36:38 | Pasar el modal el jueves.
+- [ ] 2025-01-02 10:06:23 | Hacer el trabajo en tiempo y forma.
+- [ ] 2025-01-02 10:06:35 | Tener junta para ver lo que falta.
+- [ ] 2025-01-02 14:15:14 | Avisar si tienes dudas.

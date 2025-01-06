@@ -24,7 +24,7 @@ def process(blocks_obj):
     Output Data Format:
     Your response should be a list of tasks. Each task should be on a new line.
 
-    - [] YYYY-MM-DD HH:MM:SS | Task description in Spanish
+    - [ ] YYYY-MM-DD HH:MM:SS | Task description in Spanish
 
     Example of a full interaction:
     [
@@ -41,7 +41,7 @@ def process(blocks_obj):
     ]
 
     Output:
-    - [] 2024-07-27 10:00:00 | Revisar documento. 
+    - [ ] 2024-07-27 10:00:00 | Revisar documento. 
 
     Additional Notes:
     - Focus on identifying tasks within the chat history.
@@ -82,29 +82,29 @@ def process(blocks_obj):
     Input Data Format:
     The input will be a list of tasks, each with a timestamp and description:
 
-    - [] YYYY-MM-DD HH:MM:SS | Task description in Spanish
+    - [ ] YYYY-MM-DD HH:MM:SS | Task description in Spanish
 
     Example Input:
-    - [] 2025-01-02 14:15:08 | Dejar los documentos para revisión mañana.
-    - [] 2025-01-02 14:15:14 | Comunicar dudas sobre el trabajo realizado en relación a los documentos.
-    - [] 2024-12-31 19:36:38 | Recibir el paquete para el jueves.
-    - [] 2025-01-02 10:06:03 | Retomar todo proyecto.
-    - [] 2025-01-02 10:06:23 | Hacer en tiempo y forma para recibir dinero.
-    - [] 2025-01-02 10:06:35 | Junta lo que falta ahorita.
-    - [] 2025-01-02 12:56:53 | Configurar las constantes del proyecto.
-    - [] 2025-01-02 14:15:08 | Dejar los documentos para revisión mañana.
-    - [] 2025-01-02 14:15:14 | Comunicar dudas sobre el trabajo realizado en relación a los documentos.
+    - [ ] 2025-01-02 14:15:08 | Dejar los documentos para revisión mañana.
+    - [ ] 2025-01-02 14:15:14 | Comunicar dudas sobre el trabajo realizado en relación a los documentos.
+    - [ ] 2024-12-31 19:36:38 | Recibir el paquete para el jueves.
+    - [ ] 2025-01-02 10:06:03 | Retomar todo proyecto.
+    - [ ] 2025-01-02 10:06:23 | Hacer en tiempo y forma para recibir dinero.
+    - [ ] 2025-01-02 10:06:35 | Junta lo que falta ahorita.
+    - [ ] 2025-01-02 12:56:53 | Configurar las constantes del proyecto.
+    - [ ] 2025-01-02 14:15:08 | Dejar los documentos para revisión mañana.
+    - [ ] 2025-01-02 14:15:14 | Comunicar dudas sobre el trabajo realizado en relación a los documentos.
 
 
     Output Data Format:
     Your response should be a refined and organized list of tasks in the SAME format as the input, potentially grouped by timestamps, and free of redundancies.
 
     Example Output:
-    - [] 2025-01-02 12:56:53 | Configurar las constantes del proyecto.
-    - [] 2025-01-02 10:06:03 | Retomar el proyecto, completarlo en tiempo y forma para recibir el pago. (This combines and rephrases related tasks for clarity)
-    - [] 2025-01-02 10:06:35 | Juntar lo que falta en el proyecto. 
-    - [] 2025-01-02 14:15:08 | Dejar los documentos para revisión mañana y comunicar cualquier duda sobre el trabajo realizado. (This combines related tasks)
-    - [] 2024-12-31 19:36:38 | Recibir el paquete para el jueves.
+    - [ ] 2025-01-02 12:56:53 | Configurar las constantes del proyecto.
+    - [ ] 2025-01-02 10:06:03 | Retomar el proyecto, completarlo en tiempo y forma para recibir el pago. (This combines and rephrases related tasks for clarity)
+    - [ ] 2025-01-02 10:06:35 | Juntar lo que falta en el proyecto. 
+    - [ ] 2025-01-02 14:15:08 | Dejar los documentos para revisión mañana y comunicar cualquier duda sobre el trabajo realizado. (This combines related tasks)
+    - [ ] 2024-12-31 19:36:38 | Recibir el paquete para el jueves.
 
 
     Reasoning Behind The Output (Not to be included in the response):

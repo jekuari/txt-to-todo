@@ -23,7 +23,7 @@ The chat history will be provided as a list of messages. Each message will be a 
 Output Data Format:
 Your response should be a list of tasks. Each task should be on a new line.
 
-- [] YYYY-MM-DD HH:MM:SS | Task description in Spanish
+- [ ] YYYY-MM-DD HH:MM:SS | Task description in Spanish
 
 Example of a full interaction:
 [
@@ -40,7 +40,7 @@ Example of a full interaction:
 ]
 
 Output:
-- [] 2024-07-27 10:00:00 | Revisar documento. 
+- [ ] 2024-07-27 10:00:00 | Revisar documento. 
 
 Additional Notes:
 - Focus on identifying tasks within the chat history.

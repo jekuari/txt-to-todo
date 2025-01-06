@@ -29,7 +29,7 @@ with open("message_blocks.json", "w") as file:
 result = p.remote.gemini.process(blocks_obj)
 # result = p.local.phi(blocks_obj)
 
-with open("response.txt", "w") as file:
+with open("response.md", "w") as file:
     file.write(result)
 
 print("Successfully processed the messages")
