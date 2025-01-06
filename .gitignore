@@ -4,3 +4,4 @@ inputFile.txt
 .env
 response.txt
 chat.txt
+**/__pycache__/
